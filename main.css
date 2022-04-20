@@ -4,3 +4,48 @@
     border-radius: 8px 8px 0px 0px;
     padding-bottom: 100px;
 }
+
+.jgDXBK {
+    grid-column-end: span 12;
+    color: rgb(4 4 4);
+    padding: 20px 0px 0px;
+    font-size: var(--font-size-base);
+    margin: 0px 0px 100px;
+    background: blue;
+}
+
+body {
+    margin: 0;
+    font-family: "Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    font-size: calc(var(--font-size-base));
+    line-height: 1.3;
+    background: rgb(17, 43, 25);
+}
+
+.gnwqMi {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 8px;
+    max-width: 1024px;
+    margin: 0px auto;
+    padding: 0px 16px;
+    background: cadetblue;
+}
+
+.bjzjtk {
+    top: 0px;
+    position: fixed;
+    display: grid;
+    grid-template-columns: max-content repeat(11, 1fr);
+    background-color: rgb(158 0 0);
+    -webkit-box-align: center;
+    align-items: center;
+    height: 69px;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    width: calc(100vw - 141px);
+}

@@ -3,7 +3,7 @@
     "short_name": "Dark Theme para Iônica",
     "author": "nicoluvas",
     "description": "Uma extensão aí pra não doer seus olhinhos.",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "manifest_version": 3,
     "icons": {
         "48": "icons/icon48.png",
