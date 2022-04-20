@@ -1,0 +1,18 @@
+{
+    "name": "Tema escuro para a plataforma Iônica por nicoluvas",
+    "short_name": "Dark Theme para Iônica",
+    "author": "nicoluvas",
+    "description": "Uma extensão aí pra não doer seus olhinhos.",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "icons": {
+        "48": "icons/icon48.png",
+        "96": "icons/icon96.png",
+        "128": "icons/icon128.png"
+    },
+    "content_scripts": [{
+        "matches": ["*://itjjacarei.souionica.com.br/*", "*://eu.souionica.com.br/*"],
+        "css": ["main.css"],
+        "js": ["scripts.js"]
+    }]
+}
