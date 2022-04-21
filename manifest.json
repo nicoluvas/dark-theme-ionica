@@ -3,7 +3,7 @@
     "short_name": "Iônica+",
     "author": "nicoluvas",
     "description": "Uma extensão aí pra deixar o website mais bonito e não doer seus olhinhos. Feito por nicoluvas.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "manifest_version": 3,
     "icons": {
         "48": "icons/icon48.png",
