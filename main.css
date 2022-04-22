@@ -1,3 +1,13 @@
+:root {
+
+    --blue0: #cae8ff;
+
+    --gray0: #b1bac4;
+    --gray1: #21262d;
+    --gray2: #161b22;
+    --gray3: #0d1117;
+  }
+
 .dntOkG {
     background: #161b22 !important;
     box-shadow: rgb(26, 26, 26) 0px -3px 6px !important;
@@ -175,12 +185,12 @@ body {
 
 .container {
     max-width: 1200px!important;
-    background: black !important;
+    background: #161b22 !important;
 }
 
 .justify-content-between {
     justify-content: space-between!important;
-    background: orange !important;
+    background: #161b22 !important;
 }
 
 .styles_input__3APYh {
@@ -196,13 +206,13 @@ body {
 
 .layout_headerContainerItems__3WkIX {
     height: 100%;
-    background: yellow !important;
+    background: #161b22 !important;
 }
 
 .picky__input {
     width: 100%;
-    background-color: #43bfbe !important;
-    border: 1px solid #eee;
+    background-color: #21262d !important;
+    border: 1px solid #6e7681 !important;
     border-radius: 2px;
     padding: 5px;
     text-align: left;

@@ -1,5 +1,2 @@
-first commit no ideas
+i'm not in the mood to do readme
 
-Color pallettes:
-#0d1117
-#1f6feb
