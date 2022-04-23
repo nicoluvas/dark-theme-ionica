@@ -1,11 +1,27 @@
+/* nao remova os @media*/
+
 :root {
-
-    --blue0: #cae8ff;
-
-    --gray0: #b1bac4;
-    --gray1: #21262d;
-    --gray2: #161b22;
-    --gray3: #0d1117;
+    --branco: #ffffff;
+    --cinza0: #f0f6fc;
+    --cinza1: #c9d1d9;
+    --cinza2: #b1bac4;
+    --cinza3: #8b949e;
+    --cinza4: #6e7681;
+    --cinza5: #484f58;
+    --cinza6: #30363d;
+    --cinza7: #21262d;
+    --cinza8: #161b22;
+    --cinza9: #0d1117;
+    --azul0: #cae8ff;
+    --azul1: #a5d6ff;
+    --azul2: #79c0ff;
+    --azul3: #58a6ff;
+    --azul4: #388bfd;
+    --azul5: #1f6feb;
+    --azul6: #1158c7;
+    --azul7: #0d419d;
+    --azul8: #0c2d6b;
+    --azul9: #051d4d;
   }
 
 .dntOkG {
@@ -240,6 +256,71 @@ body {
     border-radius: 6px;
     cursor: pointer;
     box-shadow: 3px 3px 4px 0 rgb(0 0 0 / 5%);
+}
+
+.styles_title__20ni1 {
+    -webkit-line-clamp: 3;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-box;
+    overflow: hidden;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 800;
+    color: #c9d1d9 !important;
+    margin-top: 8px;
+}
+
+.styles_infoContainer__1uBAB {
+    padding: 14px 10px;
+    background: #21262d !important;
+}
+
+
+.ionicamenu-loaded .layout_tabsHeaderMobile__jHZrj {
+    @media (max-width: 1800px)
+    display: flex;
+    overflow-x: scroll;
+    padding-left: 0;
+    background: #161b22 !important;
+    justify-content: space-around!important;
+}
+
+.MuiSvgIcon-root {
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    font-size: 1.5rem;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    flex-shrink: 0;
+    user-select: none;
+    background: var(--cinza7) !important;
+}
+
+.styles_mainButton__2B3rT .styles_mainImg__3Bli2 {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    background: var(--azul6) !important;
+}
+
+.styles_mainButton__2B3rT {
+    cursor: pointer;
+    background: var(--azul6) !important;
+    padding: 0;
+    border: 0;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    box-shadow: 0 5px 6px rgb(0 0 0 / 16%);
+    z-index: 1099;
 }
 
 /*personalização de perfil*/
