@@ -2,8 +2,11 @@
     "name": "Better Iônica",
     "short_name": "Iônica+",
     "author": "nicoluvas",
+    "action": {
+        "default_popup": "popup.html"
+    },  
     "description": "Uma extensão aí pra deixar o website mais bonito e não doer seus olhinhos. Feito por nicoluvas.",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "manifest_version": 3,
     "icons": {
         "48": "icons/icon48.png",
@@ -13,6 +16,6 @@
     "content_scripts": [{
         "matches": ["*://*.souionica.com.br/*"],
         "css": ["main.css"],
-        "js": ["scripts.js"]
+        "js": ["injection.js"]
     }]
 }
