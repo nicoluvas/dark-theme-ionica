@@ -185,6 +185,18 @@ body {
     border-radius: 4px;
 }
 
+.efkenJ {
+    margin: 0px;
+    color: var(--cinza2) !important;
+} /*Nome da escola*/
+
+.fNbFIB {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--cinza4) !important;
+    margin-bottom: 3px;
+} /*Voce esta em*/
+
 /*destaques*/
 
 .fSjCQg {
