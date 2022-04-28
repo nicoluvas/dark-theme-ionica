@@ -93,16 +93,15 @@ body {
     background: var(--cinza7) !important;
     border: 1px solid var(--cinza5) !important;
     color: var(--azul4) !important;
-    box-sizing: border-box;
-    border-radius: 4px;
-    padding: 8px 16px;
-    text-decoration: none;
-    align-self: end;
-    user-select: none;
-    outline: 0px;
-    cursor: pointer;
-    display: block;
-    font-size: inherit;
+    transition: transform 0.3 ease !important;
+}
+
+.hwBavG:hover {
+    transition: transform 0.3 ease !important;
+    background: var(--cinza5) !important;
+    border: 1px solid var(--cinza5) !important;
+    color: var(--azul4) !important;
+
 }
 
 .ionicamenu__bar, .ionicamenu__bar * {

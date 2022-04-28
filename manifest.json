@@ -2,10 +2,7 @@
     "name": "Better Iônica",
     "short_name": "Iônica+",
     "author": "nicoluvas",
-    "action": {
-        "default_popup": "popup.html",
-        "default_options": "options.html"
-    },  
+    "action": {"default_popup": "popup.html"},  
     "description": "Uma extensão aí pra deixar o website mais bonito e não doer seus olhinhos. Feito por nicoluvas.",
     "version": "0.0.6",
     "manifest_version": 3,
