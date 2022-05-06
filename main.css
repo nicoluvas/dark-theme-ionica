@@ -135,18 +135,6 @@ body {
     color: #c9d1d9 !important;
 }
 
-
-.fpDRn {
-    min-width: 0px !important;
-    min-height: 0px !important;
-    padding-top: 12px;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 7.55px;
-    justify-items: center;
-    background: url(/ionica-platform-fe/static/media/Banner_estuda.e857e451.png);
-}
-
 .hmocIu {
     background: var(--cinza8) !important;
     box-shadow: rgb(0 0 0 / 15%) 0px 0px 10px;
@@ -198,6 +186,49 @@ body {
     color: var(--cinza4) !important;
     margin-bottom: 3px;
 } /*Voce esta em*/
+
+.gTLZXx {
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+    background: none;
+    border: 0px;
+    color: var(--azul4) !important;
+    cursor: pointer;
+    font-size: inherit;
+}
+
+.iqbrwR {
+    grid-column: span 6 / auto;
+    text-decoration: none;
+    text-align: right;
+    margin: 10px 0px;
+    color: var(--azul4) !important;
+}
+
+.izBVou {
+    font-size: calc(var(--font-size-base) + 2px);
+    grid-column: span 6 / auto;
+    margin: 10px 0px;
+    font-weight: 600;
+    color: var(--cinza3) !important;
+}
+
+.kZsUpz {
+    background: var(--cinza8) !important;
+    border-radius: 0 0 0 0 !important;
+}
+
+.hXzcCw {
+    background: var(--cinza8) !important;
+}
+
+/*anúncio*/
+.lgnhdE {
+    @media (min-width: 966px);
+    min-width: 0px !important;
+    min-height: 0px !important;
+}
 
 /*destaques*/
 
