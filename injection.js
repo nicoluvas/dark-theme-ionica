@@ -1,10 +1,10 @@
 /*const anuncio = document.getElementById(".EiQDe");
 anuncio.remove();*/
 
-function removeElementsByClass(className) {
-    const elements = document.getElementsByClassName('.EiQDe');
-    while(elements.length > 0){
-        elements[0].parentNode.removeChild(elements[0]);
-    }
+const pathName = window.location.pathname;
+if (pathName.startsWith('/ionica-platform-fe')) {
+    const anuncio = document.getElementsByClassName('sc-DJfgX')[0];
+    anuncio.parentNode.removeChild(anuncio);
 }
+
 
